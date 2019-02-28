@@ -22,11 +22,63 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>7 Days to Die Perk Planner</title>
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+            integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+            crossorigin="anonymous"
+    />
+<style>
+  body {
+    margin: 16px !important;
+  }
+
+  nav {
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 80% 20%);
+  }
+
+  .grid .grid {
+    margin: 20px;
+  }
+  summary {
+    list-style-image: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  footer {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  #root {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90vw;
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+  }
+</style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">Loading&hellip;</div>
+    <footer>
+      Compatible with Alpha 17.2 B27<br />
+      "7 Days to Die" is property of The Fun Pimps
+    </footer>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
