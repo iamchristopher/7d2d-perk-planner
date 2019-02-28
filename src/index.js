@@ -21,10 +21,6 @@ import {
 const {
     data: selections = util.encode(initialState),
 } = qs.parse(window.location.search.substring(1));
-// console.log(selections)
-// if (!data) {
-    // return window.location.href = `${window.location.origin}?data=${util.encode(in)}`
-// }
 
 const {
     progression: {

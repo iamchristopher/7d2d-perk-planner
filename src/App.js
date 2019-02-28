@@ -524,7 +524,7 @@ const BuildForm = withRouter(connect(
     ({
         selections,
     }) => ({
-        buildUrl: `${window.location.origin}?data=${util.encode(selections)}`,
+        buildUrl: `${window.location.href}?data=${util.encode(selections)}`,
     })
 )(({ buildUrl }) =>
     <InputGroup size="sm">
