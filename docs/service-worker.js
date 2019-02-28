@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/7d2d-perk-planner/precache-manifest.676a1a91d973be9754652252ab77f343.js"
+  "/7d2d-perk-planner/precache-manifest.75084bc4c8e1eb8e2c35cabc56734dc4.js"
 );
 
 workbox.clientsClaim();

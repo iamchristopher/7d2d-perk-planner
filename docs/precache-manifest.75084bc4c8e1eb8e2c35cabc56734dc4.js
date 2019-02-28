@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/7d2d-perk-planner/static/js/runtime~main.24420df9.js"
   },
   {
-    "revision": "9690ee24b682e1ffc803",
-    "url": "/7d2d-perk-planner/static/js/main.9690ee24.chunk.js"
+    "revision": "a18fc004e7a42b728522",
+    "url": "/7d2d-perk-planner/static/js/main.a18fc004.chunk.js"
   },
   {
     "revision": "acf4df928121df53b00a",
     "url": "/7d2d-perk-planner/static/js/2.acf4df92.chunk.js"
   },
   {
-    "revision": "9690ee24b682e1ffc803",
+    "revision": "a18fc004e7a42b728522",
     "url": "/7d2d-perk-planner/static/css/main.97d03f36.chunk.css"
   },
   {
-    "revision": "6e5530830038cf590500ca775f3d65bf",
+    "revision": "2ea96d499f74ba7aa321c79a909d519a",
     "url": "/7d2d-perk-planner/index.html"
   }
 ];
