@@ -1,6 +1,7 @@
 {
   "name": "7d2d-builder",
-  "version": "0.1.0",
+  "homepage": "https://iamchristopher.github.io/7d2d-perk-planner",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "csv-parser": "^2.1.0",
